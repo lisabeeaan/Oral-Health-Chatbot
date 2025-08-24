@@ -25,7 +25,7 @@ It integrates **Poe (custom-trained model), Firebase Functions, and WhatsApp Bus
 ---
 
 ## Setup & Deployment
----
+
 ### Setting up the AI Backend using Poe
 **My AI Backend Chatbot using Poe is publically available: https://poe.com/SmileBot_2.0.1** 
 
