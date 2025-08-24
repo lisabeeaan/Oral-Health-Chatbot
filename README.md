@@ -80,11 +80,14 @@ firebase login
 ```
 ![WhatsApp Image 2025-08-25 at 00 58 32_6cee6d41](https://github.com/user-attachments/assets/1eedbd8c-2d63-4c96-971a-b501f351b7b5)
 ```bash
-firebase init
+firebase init #Please select the default codebase named functions
 ```
-<img width="778" height="1069" alt="image" src="https://github.com/user-attachments/assets/68b6f7bc-7e6e-448f-83e5-1632297bd0df" />
+<img width="745" height="1309" alt="image" src="https://github.com/user-attachments/assets/5b136a44-8960-48c3-b365-9e64f552188f" />
 
-
+##### 3. Modify the index.js file 
+```bash
+cd functions
+```
 ### Setting up WhatsApp API via Meta Developer
 ##### 1. Visit https://developers.facebook.com/ and select MyApps in the top right corner
 <img width="2879" height="1633" alt="image" src="https://github.com/user-attachments/assets/5de85df2-9cc3-4721-b08f-d5c91caaaa11" />
