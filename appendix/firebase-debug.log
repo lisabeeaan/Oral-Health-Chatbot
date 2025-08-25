@@ -1,0 +1,121 @@
+[debug] [2025-08-24T11:12:24.958Z] ----------------------------------------------------------------------
+[debug] [2025-08-24T11:12:24.960Z] Command:       /home/lisabeeaan/.nvm/versions/node/v22.18.0/bin/node /usr/local/bin/firebase functions:log --only whatsappWebhook --debug
+[debug] [2025-08-24T11:12:24.960Z] CLI Version:   14.14.0
+[debug] [2025-08-24T11:12:24.960Z] Platform:      linux
+[debug] [2025-08-24T11:12:24.960Z] Node Version:  v22.18.0
+[debug] [2025-08-24T11:12:24.960Z] Time:          Sun Aug 24 2025 13:12:24 GMT+0200 (South Africa Standard Time)
+[debug] [2025-08-24T11:12:24.960Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-24T11:12:25.071Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-24T11:12:25.072Z] > authorizing via signed-in user (lisa.pitsi@gmail.com)
+[debug] [2025-08-24T11:12:25.072Z] [iam] checking project oralhealth-chatbot for permissions ["firebase.projects.get","logging.logEntries.list","logging.logs.list"]
+[debug] [2025-08-24T11:12:25.073Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:12:25.073Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:12:25.073Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions [none]
+[debug] [2025-08-24T11:12:25.073Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions x-goog-quota-user=projects/oralhealth-chatbot
+[debug] [2025-08-24T11:12:25.074Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions {"permissions":["firebase.projects.get","logging.logEntries.list","logging.logs.list"]}
+[debug] [2025-08-24T11:12:27.450Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions 200
+[debug] [2025-08-24T11:12:27.450Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions {"permissions":["firebase.projects.get","logging.logEntries.list","logging.logs.list"]}
+[debug] [2025-08-24T11:12:27.451Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:12:27.451Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:12:27.451Z] >>> [apiv2][query] POST https://logging.googleapis.com/v2/entries:list [none]
+[debug] [2025-08-24T11:12:27.451Z] >>> [apiv2][body] POST https://logging.googleapis.com/v2/entries:list {"resourceNames":["projects/oralhealth-chatbot"],"filter":"resource.type=\"cloud_function\" OR (resource.type=\"cloud_run_revision\" AND labels.\"goog-managed-by\"=\"cloudfunctions\")\n(resource.labels.function_name=\"whatsappWebhook\" OR resource.labels.service_name=\"whatsappWebhook\")","orderBy":"timestamp desc","pageSize":35}
+[debug] [2025-08-24T11:12:31.761Z] <<< [apiv2][status] POST https://logging.googleapis.com/v2/entries:list 200
+[debug] [2025-08-24T11:13:12.088Z] ----------------------------------------------------------------------
+[debug] [2025-08-24T11:13:12.090Z] Command:       /home/lisabeeaan/.nvm/versions/node/v22.18.0/bin/node /usr/local/bin/firebase functions:log --only whatsappWebhook --debug
+[debug] [2025-08-24T11:13:12.090Z] CLI Version:   14.14.0
+[debug] [2025-08-24T11:13:12.090Z] Platform:      linux
+[debug] [2025-08-24T11:13:12.090Z] Node Version:  v22.18.0
+[debug] [2025-08-24T11:13:12.090Z] Time:          Sun Aug 24 2025 13:13:12 GMT+0200 (South Africa Standard Time)
+[debug] [2025-08-24T11:13:12.090Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-24T11:13:12.204Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-24T11:13:12.205Z] > authorizing via signed-in user (lisa.pitsi@gmail.com)
+[debug] [2025-08-24T11:13:12.205Z] [iam] checking project oralhealth-chatbot for permissions ["firebase.projects.get","logging.logEntries.list","logging.logs.list"]
+[debug] [2025-08-24T11:13:12.205Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:13:12.205Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:13:12.206Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions [none]
+[debug] [2025-08-24T11:13:12.206Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions x-goog-quota-user=projects/oralhealth-chatbot
+[debug] [2025-08-24T11:13:12.206Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions {"permissions":["firebase.projects.get","logging.logEntries.list","logging.logs.list"]}
+[debug] [2025-08-24T11:13:13.875Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions 200
+[debug] [2025-08-24T11:13:13.875Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions {"permissions":["firebase.projects.get","logging.logEntries.list","logging.logs.list"]}
+[debug] [2025-08-24T11:13:13.876Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:13:13.876Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:13:13.876Z] >>> [apiv2][query] POST https://logging.googleapis.com/v2/entries:list [none]
+[debug] [2025-08-24T11:13:13.876Z] >>> [apiv2][body] POST https://logging.googleapis.com/v2/entries:list {"resourceNames":["projects/oralhealth-chatbot"],"filter":"resource.type=\"cloud_function\" OR (resource.type=\"cloud_run_revision\" AND labels.\"goog-managed-by\"=\"cloudfunctions\")\n(resource.labels.function_name=\"whatsappWebhook\" OR resource.labels.service_name=\"whatsappWebhook\")","orderBy":"timestamp desc","pageSize":35}
+[debug] [2025-08-24T11:13:19.623Z] <<< [apiv2][status] POST https://logging.googleapis.com/v2/entries:list 500
+[debug] [2025-08-24T11:13:19.623Z] <<< [apiv2][body] POST https://logging.googleapis.com/v2/entries:list {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: Failed to list log entries Failed to retrieve log entries from Google Cloud.
+[debug] [2025-08-24T11:13:31.583Z] ----------------------------------------------------------------------
+[debug] [2025-08-24T11:13:31.584Z] Command:       /home/lisabeeaan/.nvm/versions/node/v22.18.0/bin/node /usr/local/bin/firebase functions:log --only whatsappWebhook --debug
+[debug] [2025-08-24T11:13:31.585Z] CLI Version:   14.14.0
+[debug] [2025-08-24T11:13:31.585Z] Platform:      linux
+[debug] [2025-08-24T11:13:31.585Z] Node Version:  v22.18.0
+[debug] [2025-08-24T11:13:31.585Z] Time:          Sun Aug 24 2025 13:13:31 GMT+0200 (South Africa Standard Time)
+[debug] [2025-08-24T11:13:31.585Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-24T11:13:31.706Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-24T11:13:31.707Z] > authorizing via signed-in user (lisa.pitsi@gmail.com)
+[debug] [2025-08-24T11:13:31.707Z] [iam] checking project oralhealth-chatbot for permissions ["firebase.projects.get","logging.logEntries.list","logging.logs.list"]
+[debug] [2025-08-24T11:13:31.707Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:13:31.708Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:13:31.713Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions [none]
+[debug] [2025-08-24T11:13:31.713Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions x-goog-quota-user=projects/oralhealth-chatbot
+[debug] [2025-08-24T11:13:31.713Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions {"permissions":["firebase.projects.get","logging.logEntries.list","logging.logs.list"]}
+[debug] [2025-08-24T11:13:33.420Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions 200
+[debug] [2025-08-24T11:13:33.421Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions {"permissions":["firebase.projects.get","logging.logEntries.list","logging.logs.list"]}
+[debug] [2025-08-24T11:13:33.421Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:13:33.421Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:13:33.421Z] >>> [apiv2][query] POST https://logging.googleapis.com/v2/entries:list [none]
+[debug] [2025-08-24T11:13:33.421Z] >>> [apiv2][body] POST https://logging.googleapis.com/v2/entries:list {"resourceNames":["projects/oralhealth-chatbot"],"filter":"resource.type=\"cloud_function\" OR (resource.type=\"cloud_run_revision\" AND labels.\"goog-managed-by\"=\"cloudfunctions\")\n(resource.labels.function_name=\"whatsappWebhook\" OR resource.labels.service_name=\"whatsappWebhook\")","orderBy":"timestamp desc","pageSize":35}
+[debug] [2025-08-24T11:13:39.320Z] <<< [apiv2][status] POST https://logging.googleapis.com/v2/entries:list 200
+[debug] [2025-08-24T11:16:31.679Z] ----------------------------------------------------------------------
+[debug] [2025-08-24T11:16:31.681Z] Command:       /home/lisabeeaan/.nvm/versions/node/v22.18.0/bin/node /usr/local/bin/firebase functions:log --only whatsappWebhook --debug
+[debug] [2025-08-24T11:16:31.681Z] CLI Version:   14.14.0
+[debug] [2025-08-24T11:16:31.681Z] Platform:      linux
+[debug] [2025-08-24T11:16:31.681Z] Node Version:  v22.18.0
+[debug] [2025-08-24T11:16:31.681Z] Time:          Sun Aug 24 2025 13:16:31 GMT+0200 (South Africa Standard Time)
+[debug] [2025-08-24T11:16:31.681Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-24T11:16:31.787Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-24T11:16:31.788Z] > authorizing via signed-in user (lisa.pitsi@gmail.com)
+[debug] [2025-08-24T11:16:31.788Z] [iam] checking project oralhealth-chatbot for permissions ["firebase.projects.get","logging.logEntries.list","logging.logs.list"]
+[debug] [2025-08-24T11:16:31.789Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:16:31.789Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:16:31.790Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions [none]
+[debug] [2025-08-24T11:16:31.790Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions x-goog-quota-user=projects/oralhealth-chatbot
+[debug] [2025-08-24T11:16:31.790Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions {"permissions":["firebase.projects.get","logging.logEntries.list","logging.logs.list"]}
+[debug] [2025-08-24T11:16:33.658Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions 200
+[debug] [2025-08-24T11:16:33.659Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions {"permissions":["firebase.projects.get","logging.logEntries.list","logging.logs.list"]}
+[debug] [2025-08-24T11:16:33.659Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:16:33.659Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:16:33.660Z] >>> [apiv2][query] POST https://logging.googleapis.com/v2/entries:list [none]
+[debug] [2025-08-24T11:16:33.660Z] >>> [apiv2][body] POST https://logging.googleapis.com/v2/entries:list {"resourceNames":["projects/oralhealth-chatbot"],"filter":"resource.type=\"cloud_function\" OR (resource.type=\"cloud_run_revision\" AND labels.\"goog-managed-by\"=\"cloudfunctions\")\n(resource.labels.function_name=\"whatsappWebhook\" OR resource.labels.service_name=\"whatsappWebhook\")","orderBy":"timestamp desc","pageSize":35}
+[debug] [2025-08-24T11:16:39.333Z] <<< [apiv2][status] POST https://logging.googleapis.com/v2/entries:list 500
+[debug] [2025-08-24T11:16:39.333Z] <<< [apiv2][body] POST https://logging.googleapis.com/v2/entries:list {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: Failed to list log entries Failed to retrieve log entries from Google Cloud.
+[debug] [2025-08-24T11:16:50.157Z] ----------------------------------------------------------------------
+[debug] [2025-08-24T11:16:50.158Z] Command:       /home/lisabeeaan/.nvm/versions/node/v22.18.0/bin/node /usr/local/bin/firebase functions:log --only whatsappWebhook --debug
+[debug] [2025-08-24T11:16:50.158Z] CLI Version:   14.14.0
+[debug] [2025-08-24T11:16:50.158Z] Platform:      linux
+[debug] [2025-08-24T11:16:50.158Z] Node Version:  v22.18.0
+[debug] [2025-08-24T11:16:50.158Z] Time:          Sun Aug 24 2025 13:16:50 GMT+0200 (South Africa Standard Time)
+[debug] [2025-08-24T11:16:50.158Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-24T11:16:50.268Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-24T11:16:50.269Z] > authorizing via signed-in user (lisa.pitsi@gmail.com)
+[debug] [2025-08-24T11:16:50.269Z] [iam] checking project oralhealth-chatbot for permissions ["firebase.projects.get","logging.logEntries.list","logging.logs.list"]
+[debug] [2025-08-24T11:16:50.270Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:16:50.270Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:16:50.270Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions [none]
+[debug] [2025-08-24T11:16:50.271Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions x-goog-quota-user=projects/oralhealth-chatbot
+[debug] [2025-08-24T11:16:50.271Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions {"permissions":["firebase.projects.get","logging.logEntries.list","logging.logs.list"]}
+[debug] [2025-08-24T11:16:51.995Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions 200
+[debug] [2025-08-24T11:16:51.995Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/oralhealth-chatbot:testIamPermissions {"permissions":["firebase.projects.get","logging.logEntries.list","logging.logs.list"]}
+[debug] [2025-08-24T11:16:51.996Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:16:51.996Z] Checked if tokens are valid: true, expires at: 1756037318419
+[debug] [2025-08-24T11:16:51.996Z] >>> [apiv2][query] POST https://logging.googleapis.com/v2/entries:list [none]
+[debug] [2025-08-24T11:16:51.996Z] >>> [apiv2][body] POST https://logging.googleapis.com/v2/entries:list {"resourceNames":["projects/oralhealth-chatbot"],"filter":"resource.type=\"cloud_function\" OR (resource.type=\"cloud_run_revision\" AND labels.\"goog-managed-by\"=\"cloudfunctions\")\n(resource.labels.function_name=\"whatsappWebhook\" OR resource.labels.service_name=\"whatsappWebhook\")","orderBy":"timestamp desc","pageSize":35}
+[debug] [2025-08-24T11:16:57.708Z] <<< [apiv2][status] POST https://logging.googleapis.com/v2/entries:list 200
