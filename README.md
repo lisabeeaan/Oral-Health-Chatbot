@@ -1,7 +1,7 @@
 # Oral-Health-Chatbot
 IFS362 Individual Project. Improving the WotNot chatbot of Semester 1. 
 
-For marking purposes please see [check out the appendix](appendix/) and [the training](training/)
+For marking purposes please [check out the appendix](appendix/) and [the training](training/)
 
 SmileBot is an AI-powered oral health assistant designed to improve oral health awareness, education, and accessibility across South Africa.  
 
