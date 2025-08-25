@@ -19,18 +19,18 @@ It integrates **Poe (custom-trained model), Firebase Functions, and WhatsApp Bus
 ---
 
 ## Repo Structure
-- [`functions/`](Oral-Health-Chatbot/functions/) → Firebase Cloud Functions (WhatsApp + Poe API integration)
-- [`docs/`](Oral-Health-Chatbot/docs/) → Architecture diagrams, EA justification, Agile sprint plan
-- [`appendix/`](Oral-Health-Chatbot/appendix/) → Proof of deployment (Firebase logs, screenshots, WhatsApp test messages)
-- [`training/`](Oral-Health-Chatbot/training/) → Resources for SmileBot model training on Poe
+- [`functions/`](functions/) → Firebase Cloud Functions (WhatsApp + Poe API integration)
+- [`docs/`](docs/) → Architecture diagrams, EA justification, Agile sprint plan
+- [`appendix/`](appendix/) → Proof of deployment (Firebase logs, screenshots, WhatsApp test messages)
+- [`training/`](training/) → Resources for SmileBot model training on Poe
 
 ---
 
 ## Setup & Deployment
 
 ### Setting up the AI Backend using Poe
-**My AI Backend Chatbot using Poe is publically available: https://poe.com/SmileBot_2.0.1
-and available under `appendix/`** 
+My AI Backend Chatbot using Poe is publically available: **https://poe.com/SmileBot_2.0.1
+and available under [`appendix/`](appendix/)** 
 
 ##### 1. Sign into https://poe.com
 ##### 2. Select your bot type - for this tutorial choose Prompt Bot
@@ -48,7 +48,7 @@ and available under `appendix/`**
 
 
 ### Setting up Firebase Functions
-**Firebase isn't publically available, but you can view my proof of its existence under ()**
+**Firebase isn't publically available, but you can view my proof of its existence under [`appendix/`](appendix/)**
 
 ##### 1. Sign into Firebase via https://firebase.google.com/
 ##### 2. Create a new project and pick a name 
