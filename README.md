@@ -100,6 +100,9 @@ node -v                     # If version is v18.19.1; update
 nvm install 22
 nvm use 22                  # Makes v22.18.0 the default
 npm install node-fetch      # installing dependencies
+npm install firebase-functions@latest axios
+npm install dotenv
+npm install openai
 ```
 ##### 2. Initialise firebase - follow prompts of your choice (or follow mine)
 ```bash
