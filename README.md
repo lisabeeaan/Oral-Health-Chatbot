@@ -99,7 +99,7 @@ sudo apt install nodejs npm
 node -v                     # If version is v18.19.1; update
 nvm install 22
 nvm use 22                  # Makes v22.18.0 the default
-npm install node-fetch      # 
+npm install node-fetch      # installing dependencies
 ```
 ##### 2. Initialise firebase - follow prompts of your choice (or follow mine)
 ```bash
@@ -116,7 +116,7 @@ firebase init #Please select the default codebase named functions
 ```bash
 cd functions/index.js
 ```
-See `functions/index.js` for JavaScript code
+See [`functions/index.js`](functions/index.js) for JavaScript code
 ##### 4. Create a secret manager file for your access tokens
 ```bash
 cd ~
@@ -124,13 +124,14 @@ nano firebase-functions.sh
 chmod +x firebase-functions.sh # This makes the file an executable
 ./firebase-functions.sh
 ```
-See `firebase-functions.sh` 
+See [`firebase-functions.sh`](firebase-functions.sh) for the secret functions 
 
 ##### 5. Deploy the Firebase function
 ```bash
 firebase deploy --only functions
 ```
 <img width="1059" height="823" alt="image" src="https://github.com/user-attachments/assets/c300210f-8897-433d-b578-17344ac38e24" />
+
 Take note of the function URL
 When deploying it will ask for your access tokens and phone number ID privately.
 ##### 6. Go to step 7 and 8 in Setting up WhatsApp API via Meta Developer 
