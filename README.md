@@ -40,7 +40,7 @@ and available under [`appendix/`](appendix/)**
 <img width="2273" height="1327" alt="image" src="https://github.com/user-attachments/assets/4561d04c-1f9a-4038-8339-569f142d0dfa" />
 
 ##### 4. Prompt bot as accurately as possible
-(if you want to see my prompts for an Oral Health Chatbot - see ())
+(if you want to see my prompts for an Oral Health Chatbot - see [`training`](training/))
 ##### 5. Add knowledge base files. 
 (These must regard what you want your chatbot to understand - like Oral Hygiene. See())
 ##### 6. After publishing the bot, select 
@@ -127,7 +127,7 @@ nano firebase-functions.sh
 chmod +x firebase-functions.sh # This makes the file an executable
 ./firebase-functions.sh
 ```
-See [`firebase-functions.sh`](firebase-functions.sh) for the secret functions 
+See [`functions/firebase-functions.sh`](functions/firebase-functions.sh) for the secret functions 
 
 ##### 5. Deploy the Firebase function
 ```bash
