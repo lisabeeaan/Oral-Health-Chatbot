@@ -1,6 +1,7 @@
 # Oral-Health-Chatbot
 IFS362 Individual Project. Improving the WotNot chatbot of Semester 1. 
-For marking purposes please see (Oral-Health-Chatbot/appendix) `appendix/` and `training/`
+
+For marking purposes please see [check it the appendix](Oral-Health-Chatbot/appendix) and [the training](Oral-Health-Chatbot/training)
 
 SmileBot is an AI-powered oral health assistant designed to improve oral health awareness, education, and accessibility across South Africa.  
 
@@ -18,10 +19,10 @@ It integrates **Poe (custom-trained model), Firebase Functions, and WhatsApp Bus
 ---
 
 ## Repo Structure
-- `functions/` → Firebase Cloud Functions (WhatsApp + Poe API integration)
-- `docs/` → Architecture diagrams, EA justification, Agile sprint plan
-- `appendix/` → Proof of deployment (Firebase logs, screenshots, WhatsApp test messages)
-- `training/` → Resources for SmileBot model training on Poe
+- [`functions/`](Oral-Health-Chatbot/functions/) → Firebase Cloud Functions (WhatsApp + Poe API integration)
+- [`docs/`](Oral-Health-Chatbot/docs/) → Architecture diagrams, EA justification, Agile sprint plan
+- [`appendix/`](Oral-Health-Chatbot/appendix/) → Proof of deployment (Firebase logs, screenshots, WhatsApp test messages)
+- [`training/`](Oral-Health-Chatbot/training/) → Resources for SmileBot model training on Poe
 
 ---
 
